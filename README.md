@@ -37,7 +37,7 @@ A comprehensive marketing analytics platform that helps businesses track, analyz
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-org/benchmarketing.git
+   git clone https://github.com/egilfilenjr/benchmarketing.git
    cd benchmarketing
    ```
 
