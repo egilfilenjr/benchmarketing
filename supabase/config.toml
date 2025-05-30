@@ -1,0 +1,4 @@
+project_id = "wirxvaxlqdbivfhovrnc"
+
+[functions.sync-integrations]
+verify_jwt = false

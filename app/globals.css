@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bm-primary: #1E293B;
+    --bm-secondary-a: #3B82F6;
+    --bm-secondary-b: #2563EB;
+    --bm-success: #22C55E;
+    --bm-error: #EF4444;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-white rounded-lg shadow-sm border border-gray-200 p-6;
+  }
+
+  .btn-primary {
+    @apply px-4 py-2 bg-[var(--bm-secondary-a)] text-white rounded-md hover:bg-[var(--bm-secondary-b)] disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+} 
